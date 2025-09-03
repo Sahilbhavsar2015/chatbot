@@ -25,7 +25,7 @@ This project is an interactive workflow chatbot built with LangChain and Streaml
   - create venv using command - python venv venv
   - pip install -r requirements.txt
 
-3. # OpenApi Key
+3. **OpenApi Key**
  - Ensure your OpenAI API key is properly set in the .env file before running the application. The app will display an error message if the API key is missing.
 
 ## Running the App
