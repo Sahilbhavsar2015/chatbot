@@ -30,5 +30,13 @@ This project is an interactive workflow chatbot built with LangChain and Streaml
 
 ## Running the App
 - Run the application using below command
-- streamlit run main.py
+- streamlit run app.py
+
+## Running the App
+- app.py → Main entry point (Streamlit UI)
+- config.py → Configuration for questions, fields, and prompts
+- llm_service.py → Handles interaction with LLM (OpenAI)
+- extractors.py → Extracts values from user input (regex + LLM fallback)
+- validators.py → Validates extracted values (rules & checks)
+- state_manager.py → Manages session state and workflow logic
 
