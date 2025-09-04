@@ -16,7 +16,7 @@ This project is an interactive workflow chatbot built with LangChain and Streaml
 - Entity extraction (gets only the required value from user input)
 - Built-in validation (regex and/or LLM-based parsing)
 - Live summary of collected data once complete
-- Modern frontend with Streamlit
+- Modular architecture (separation of UI, logic, validation, and LLM service)
 
 ## Setup
 
